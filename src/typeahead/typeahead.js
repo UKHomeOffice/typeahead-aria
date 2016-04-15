@@ -385,8 +385,10 @@ var Typeahead = (function() {
       $candidate = this.menu.selectableRelativeToCursor(delta);
       data = this.menu.getSelectableData($candidate);
       payload = data ? data.obj : null;
-      id = $candidate.attr('id');
-      this.input.trigger('cursorchange', id);
+      if ($candidate) {
+        id = $candidate.attr('id');
+        this.input.trigger('cursorchange', id);
+      }
 
       // update will return true when it's a new query and new suggestions
       // need to be fetched – in this case we don't want to move the cursor
