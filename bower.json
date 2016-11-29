@@ -1,5 +1,5 @@
 {
-  "name": "corejs-typeahead",
+  "name": "typeahead-aria",
   "version": "1.0.3",
   "main": "dist/typeahead.bundle.js",
   "dependencies": {
