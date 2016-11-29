@@ -1,6 +1,6 @@
 {
   "name": "corejs-typeahead",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "main": "dist/typeahead.bundle.js",
   "dependencies": {
     "jquery": ">=1.11"
