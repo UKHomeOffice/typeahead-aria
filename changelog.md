@@ -1,5 +1,8 @@
 # Changelog
 
+### 1.0.4
+* (Bugfix) Ensure npm main exports index.js
+
 ### 1.0.3
 * Merge from new upstream (https://github.com/corejavascript/typeahead.js)
 
