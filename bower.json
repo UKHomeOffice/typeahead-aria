@@ -1,6 +1,6 @@
 {
   "name": "typeahead-aria",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/typeahead.bundle.js",
   "dependencies": {
     "jquery": ">=1.11"
